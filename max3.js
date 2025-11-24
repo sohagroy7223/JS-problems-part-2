@@ -21,4 +21,9 @@ function maxNumber(num1, num2, num3) {
         console.log("number3 is the max number:", num3);
     }
 }
-maxNumber(87, 90, 95);
+maxNumber(87, 90, 85);
+
+// if need to big number in many of the numbers
+
+const max = Math.max(12, 34.45, 40, 33, 89, 353, 3, 78, 25, 84);
+console.log(max);
