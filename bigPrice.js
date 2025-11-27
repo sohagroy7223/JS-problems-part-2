@@ -45,5 +45,48 @@ function maxPrice(numbers) {
     }
     return max;
 }
-const result = maxPrice(phone);
-console.log(result);
+// const result = maxPrice(phone);
+// console.log(result);
+
+const man = [
+    {
+        name: "sohag",
+        age: 20,
+        class: 12,
+        isStudent: true,
+        leveIn: "bangladesh",
+    },
+    {
+        name: "sagor",
+        age: 28,
+        class: "honers final year",
+        isStudent: true,
+        leveIn: "bangladesh",
+    },
+    {
+        name: "sumon",
+        age: 25,
+        class: "degree 3rd year",
+        isStudent: true,
+        leveIn: "bangladesh",
+    },
+    {
+        name: "saikot",
+        age: 23,
+        class: "diploma in csc",
+        isStudent: true,
+        leveIn: "bangladesh",
+    },
+];
+
+function maxAge(years) {
+    let age = 0;
+    for (const year of years) {
+        if (year.age > age) {
+            age = year;
+        }
+    }
+    return age;
+}
+const person = maxAge(man);
+console.log(person);
