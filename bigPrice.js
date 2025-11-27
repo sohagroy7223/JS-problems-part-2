@@ -80,9 +80,9 @@ const man = [
 ];
 
 function maxAge(years) {
-    let age = 0;
+    let age = years[0];
     for (const year of years) {
-        if (year.age > age) {
+        if (year.age > age.age) {
             age = year;
         }
     }
