@@ -27,5 +27,5 @@ function layerdDiscountTotal(quantity) {
         return total;
     }
 }
-const result = layerdDiscountTotal(201);
+const result = layerdDiscountTotal(200);
 console.log(result);
